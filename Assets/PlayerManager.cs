@@ -5,7 +5,7 @@ namespace DefaultNamespace
 {
    public class PlayerManager : MonoBehaviour
    {
-      public bool HasKey;
+      public bool HasKey = true;
       public LayerMask doorLayer;
 
       private void Update()
